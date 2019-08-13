@@ -14,9 +14,17 @@ Main edit was to use a [TB6612FNG](https://www.aliexpress.com/wholesale?catId=0&
 
 ![linorobot_2wdrev2_bb](https://github.com/linorobot/lino_docs/raw/master/schematics/v2/linorobot_2wdrev2_bb.png)
 
+Source: [Linorobot Base Controller](https://raw.githubusercontent.com/linorobot/lino_docs/master/schematics/v2/linorobot_2wdrev2_bb.png)
+
 ## Battery power
 
 Plan was to use a [12v 6800mAH](https://www.aliexpress.com/item/32836166839.html) Li-ion pack as it was the most value for money. The pack has an onboard over-discharge, short protection and regulates charging to all cells by a single plug connector! Connection from battery to the PCB would be by a 5.5x2.1mm barrel plug connector which was designed in.
+
+
+
+## I2C connection
+
+An I2c connection between the IMU and Teensy. Pullup resistors were designed in for resistors to be added later if there are any issues. A guide for calculation of the resistor value can be found [here](http://www.ti.com/lit/an/slva689/slva689.pdf).
 
 
 
