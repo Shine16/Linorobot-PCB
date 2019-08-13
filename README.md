@@ -16,7 +16,7 @@ Main edit was to use a [TB6612FNG](https://www.aliexpress.com/wholesale?catId=0&
 
 ## Battery power
 
-Plan was to use a [12v 6800mAH](https://www.aliexpress.com/item/32836166839.html) Li-ion pack as it was the most value for money. The pack has an onboard over-discharge, short protection and regulates charging! Connection from battery to the PCB would be by a 5.5x2.1mm barrel plug connector which was designed in.
+Plan was to use a [12v 6800mAH](https://www.aliexpress.com/item/32836166839.html) Li-ion pack as it was the most value for money. The pack has an onboard over-discharge, short protection and regulates charging to all cells by a single plug connector! Connection from battery to the PCB would be by a 5.5x2.1mm barrel plug connector which was designed in.
 
 
 
