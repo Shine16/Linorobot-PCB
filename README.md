@@ -8,7 +8,7 @@
 
 Circuit was designed based on the Linorobot circuit found [here](https://github.com/linorobot/linorobot/wiki/2.-Base-Controller).
 
-Main components such as controller, IMU, motor driver are attached by 2.54mm pin female connectors on the PCB for modularity, and to aid future maintenance, able to be swapped out as required.
+Components such as controller, IMU, motor driver are attached by 2.54mm pin female connectors on the PCB for modularity to aid future maintenance, able to be swapped out as required.
 
 Main edit was to use a [TB6612FNG](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20190813133730&SearchText=TB6612FNG) for the motor driver, it was chosen as it could output an adequate average of 1.2A for two DC motors, and small footprint fit the PCB well. It was estimated that each DC motor would draw 3-500mA.
 
