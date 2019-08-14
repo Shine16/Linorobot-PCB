@@ -30,9 +30,9 @@ An I2c connection between the IMU and Teensy. Pullup resistors were designed in 
 
 ## Onboard DC-DC
 
-The Linorobot control will use at max approximately 2.5A, a 5v DC-DC was designed onboard the PCB. A copper cutout for the Inductor was done reduce on noise induced.
+The Linorobot control will use at max approximately 2.5A, a 5V 3A DC-DC was designed onboard the PCB. The DC-DC circuit was designed based on the [AIC2510-50GM5TR](https://datasheet.lcsc.com/szlcsc/Analog-Integrations-AIC2510-50GM5TR_C211625.pdf) datasheet, with values selected for fixed a 5v configuration. 
 
-The DC-DC circuit was designed based on the [AIC2510-50GM5TR](https://datasheet.lcsc.com/szlcsc/Analog-Integrations-AIC2510-50GM5TR_C211625.pdf) datasheet, with values selected for fixed a 5v configuration.
+A copper cutout for the Inductor was done reduce on noise induced.
 
 
 
